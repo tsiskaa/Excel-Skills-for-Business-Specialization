@@ -1,0 +1,40 @@
+This practice challenge has some more challenging steps than the previous one. The first 6 steps should be familiar but steps 7 to 9 will test how well you can use the tools we covered in the videos to accomplish an unfamiliar task.
+
+STEP 1: Download the workbook below and open it in Excel.
+(W1_AdvPracticeChallenge)
+
+STEP 2: The current sheet names are not very meaningful. Let's change that as follows:
+
+Sheet1: April
+
+Sheet2: May
+
+Sheet3: June
+
+Sheet4: Report
+
+STEP 3: Make a copy of the sheet June, move that copy to the left of all the other sheets (first in the workbook), call it Summary.
+
+STEP 4: It is useful to provide visual clues to users. Change the colours of the tabs to distinguish Monthly figures from summary data.
+
+STEP 5: Since the worksheets are set up identically, they are perfectly suited for 3-D cell references. Use 3-D cell references to sum up the help desk hours for April, May & June into the Summary sheet.
+
+STEP 6: On the Report sheet, use linking formulas to get the total tickets for April, May and June from the workbooks supplied.
+Help Desk April Summary
+Help Desk May
+Help Desk June
+
+The next few instructions are a bit tricky. You should not need to add any columns to achieve these tasks. These tasks are similar to what was in the Consolidate by Category (Reference) video. In that video, we consolidated sheets that had different categories and in a different order by selecting Use labels in: Left column. Consolidate by Category can also condense multiple rows with the same category down to a single row per category.
+
+When you select the references, note that you will need to select at least 2 columns. The first column will be used for the labels and the other column(s) will be consolidated using the Function that you select in the Consolidate dialog.
+
+STEP 7: Use the Consolidate tool to generate a summary of the number of tickets raised per priority for May Week 4, June Week 1 and June Week 2 (combined). Sort the consolidated data by Priority.
+
+STEP 8: Use the Consolidate tool to generate a summary of the average number of days a ticket was open per priority for May Week 4, June Week 1 and June Week 2. Sort the consolidated data by Priority and change number of decimal places to 2 (change the format, do not use a rounding function).
+
+IMPORTANT: Before the next step, make sure you delete the other references in the Consolidate tool!
+
+STEP 9: Use the Consolidate tool to generate a summary of the number of tickets given each satisfaction rating for May Week 4, June Week 1 and June Week 2. Use a COUNT function. Sort the consolidated data by Satisfaction Rating.
+
+
+
